@@ -1,5 +1,5 @@
 // API service for Jira Dashboard frontend
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://vscode-internal-48-beta.beta01.cloud.kavia.ai:3001';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://vscode-internal-60-beta.beta01.cloud.kavia.ai:3001';
 
 class ApiError extends Error {
   constructor(message, status, code) {
